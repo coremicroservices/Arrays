@@ -1,0 +1,22 @@
+<table class="main-table">
+    <thead>
+        <tr>
+            <th>
+                Sr No.
+            </th>
+            <th>
+                Fruit Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let fruit of duplicateArray; let i = index; let even = even">
+            <td> 
+                {{i}} 
+            </td>
+            <td>
+                {{fruit}}
+            </td>
+        </tr>
+    </tbody>
+</table>

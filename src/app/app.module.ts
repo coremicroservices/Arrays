@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UniqueItemsFromArrayComponent } from './unique-items-from-array/unique-items-from-array.component';
+import { TableExampleComponent } from './table-example/table-example.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UniqueItemsFromArrayComponent
+    UniqueItemsFromArrayComponent,
+    TableExampleComponent
   ],
   imports: [
     BrowserModule

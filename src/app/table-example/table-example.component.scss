@@ -1,0 +1,19 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    thead {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    tbody tr td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+    cursor: not-allowed;
+}
